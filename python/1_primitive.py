@@ -16,7 +16,7 @@ print(f"is_student : {type(is_student)} {is_student}")
 data: None = None
 print(f"data : {type(data)} {data}")
 
-size: bytes = bytes(10)
+size: bytes = bytes(b"example")
 print(f"size : {type(size)} {size}")
 
 complex_number: complex = 2 + 3j
